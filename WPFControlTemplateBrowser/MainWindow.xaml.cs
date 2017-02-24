@@ -104,6 +104,7 @@ namespace WPFControlTemplateBrowser
                 txtTemplate.Text = "<< Error generating template: " + err.Message + ">>";
             }
         }
+
     }
 
     public class TypeComparer : IComparer<Type>
